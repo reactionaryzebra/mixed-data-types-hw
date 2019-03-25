@@ -128,3 +128,10 @@ bondFilms.forEach(element => {
     oddBonds.push(element);
   }
 })
+const cumGross = films => {
+  let total = 0;
+  films.forEach(film => {
+    total += +(film.gross.slice(1).split(',').join(''));
+  })
+  return `The cumulative gross of these films is $${total.toLocaleString('en')}`
+}
