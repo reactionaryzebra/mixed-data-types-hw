@@ -23,3 +23,14 @@ const students = [
     favoriteTv: []
   }
 ]
+
+//2
+const rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+rainbowColors[4];
+const justin = {
+  favoriteFood: 'scallops',
+  hobby: 'bouldering',
+  currentTown: 'Koreatown, LA',
+  favoriteDataType: 'objects'
+}
+justin.hobby
