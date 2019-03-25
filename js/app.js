@@ -121,4 +121,10 @@ const bondFilms = [
   { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
 ];
 const bondTitles = [];
-bondFilms.forEach((element) => bondTitles.push(element.title))
+bondFilms.forEach((element) => bondTitles.push(element.title));
+const oddBonds = [];
+bondFilms.forEach(element => {
+  if (element.year % 2 === 1){
+    oddBonds.push(element);
+  }
+})
